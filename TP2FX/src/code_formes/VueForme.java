@@ -32,7 +32,7 @@ public class VueForme {
 		root.setRight(getRight());
 		root.setCenter(getCenter());
 		
-		scene.getStylesheets().setAll(this.getClass().getResource("/styles/style_forme.css").toString());
+		scene.getStylesheets().setAll(this.getClass().getResource("/style/style_forme.css").toString());
 	}
 	
 	public Scene getScene() {
@@ -41,9 +41,9 @@ public class VueForme {
 	
 	private Node getBottom() {
 		HBox hbox = new HBox();
-		Button generer = new Button("Générer");
+		Button generer = new Button("Gï¿½nï¿½rer");
 		generer.setId("generer");
-		Button reinitialiser = new Button("Réinitialiser");
+		Button reinitialiser = new Button("Rï¿½initialiser");
 		reinitialiser.setId("reinitialiser");
 		Button quitter = new Button("Quitter");
 		quitter.setId("quitter");
@@ -103,7 +103,7 @@ public class VueForme {
 		HBox dimension = new HBox();
 		VBox largeur = construireTextLabel("Largeur", "0", true);
 		VBox hauteur = construireTextLabel("Hauteur", "0", true);
-		VBox cote = construireTextLabel("Côté C", "0", true);
+		VBox cote = construireTextLabel("Cï¿½tï¿½ C", "0", true);
 		
 		HBox.setMargin(largeur, new Insets(0, 8, 0, 0));
 		HBox.setMargin(hauteur, new Insets(0, 8, 0, 0));
@@ -113,7 +113,7 @@ public class VueForme {
 		
 		// Conteneur6
 		VBox opacite = new VBox();
-		Label labelOpa = new Label("Opacité");
+		Label labelOpa = new Label("Opacitï¿½");
 		Slider slider = new Slider(0, 90, 100);
 		slider.setMaxWidth(145);
 		
