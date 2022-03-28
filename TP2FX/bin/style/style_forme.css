@@ -1,0 +1,41 @@
+#root {
+	-fx-background-color: #deefff;
+	-fx-padding: 20, 10, 20, 5;
+}
+
+#panel {
+	-fx-background-color: #fff593;
+	-fx-border-width: 3;
+	-fx-border-style: solid;
+	-fx-border-color: dodgerBlue;
+}
+
+#option {
+	-fx-background-insets: 10;
+}
+
+.label {
+    -fx-text-fill: darkblue;
+	-fx-font-weight: bold;
+}
+
+.button {
+	-fx-font-weight: bold;
+	-fx-effect: innershadows(two-pass-box, #0082ff, 45, 0.1, -6, -20);
+	-fx-background-radius: 25px;
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1;
+	-fx-padding: 10px, 50px, 10px, 50px;
+}
+
+#generer {
+	-fx-translate-x: 50;
+}
+
+#reinitialiser {
+	-fx-translate-x: 120;
+}
+
+#quitter {
+	-fx-translate-x: 190;
+}
